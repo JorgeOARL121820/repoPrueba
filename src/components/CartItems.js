@@ -66,7 +66,7 @@ export const CartItems = ({ id, precio, origen, destino, duracion,  fecha, hora,
     return new Intl.NumberFormat('en-IN', {
         style: 'currency',
         currency: 'USD',
-        maximumSignificantDigits: 3}).format(num)
+        maximumSignificantDigits: 20}).format(num)
   };
 
 const add = () => {
@@ -184,17 +184,17 @@ const remove = () => {
                                 <div className="number col l2 t5 m5">
                                   {
                                     enableButtons ?
-                                      <button onClick={remove}>-</button>
+                                      <button id="restar" onClick={remove}>-</button>
                                     : null
                                   }
                                 </div>
                                 <div className="col l2 pull-center">
-                                    <label>{count}</label>
+                                    <label id="countValue">{count}</label>
                                 </div>
                                 <div className="number col l2 t5 m5">
                                     {
                                       enableButtons ?
-                                        <button onClick={add}>+</button>
+                                        <button id="agregar" onClick={add}>+</button>
                                       : null
                                     }
                                 </div>

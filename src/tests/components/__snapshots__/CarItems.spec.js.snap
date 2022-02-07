@@ -1,0 +1,442 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba de funcionalidad de la seccion de tarjetas del carrito Comprobar que al dar click en cualquier boton ya sea "+" ó "-" el costo a pagar se modifique correctamente 1`] = `
+Array [
+  <div
+    className="card"
+  >
+    <div
+      className="col l2 t3 m3"
+    >
+      <div
+        className="card-image"
+      >
+        <img
+          alt=""
+          src="logo.png"
+          width="100%"
+        />
+      </div>
+    </div>
+    <div
+      className="col l12 t12 m12"
+    >
+      <div
+        className="col l12 pull-center"
+      >
+        <div
+          className="fila"
+        >
+          <div
+            className="col l12 pull-center"
+          >
+            <h3>
+              Fecha de vuelo: 
+              2022-03-19
+            </h3>
+          </div>
+          <div
+            className="col l2 t4 pull-left"
+          >
+            <h5>
+              Salida: Morelia
+              <br />
+              Hora: 10:00
+            </h5>
+          </div>
+          <div
+            className="col l8 t4"
+          >
+            <i
+              className="bx bxs-plane-alt bx-fade-right"
+            />
+          </div>
+          <div
+            className="col l2 t4 pull-right"
+          >
+            <h5>
+              Llegada: Guadalajara
+              <br />
+              Hora: 15:00
+            </h5>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col l12 t12 m12 pull-center"
+      >
+        <h5>
+          Tiempo de viaje: 5 hrs
+        </h5>
+      </div>
+      <div
+        className="col l12 t12 m12 pull-center"
+      >
+        <h5>
+          Precio: $25,896 p/p
+        </h5>
+      </div>
+      <div
+        className="fila col l12"
+      >
+        <div
+          className="fila col l6 t12 m12"
+        >
+          <div
+            className="col l6 t12 m12 pull-center"
+          >
+            <h5>
+               
+              ¿Cuántos boletos necesita?
+               
+            </h5>
+          </div>
+          <div
+            className="col l12"
+          />
+          <div
+            className="number col l2 t5 m5"
+          >
+            <button
+              id="restar"
+              onClick={[Function]}
+            >
+              -
+            </button>
+          </div>
+          <div
+            className="col l2 pull-center"
+          >
+            <label
+              id="countValue"
+            >
+              5
+            </label>
+          </div>
+          <div
+            className="number col l2 t5 m5"
+          >
+            <button
+              id="agregar"
+              onClick={[Function]}
+            >
+              +
+            </button>
+          </div>
+        </div>
+        <div
+          className="col l6 t12 m12"
+        >
+          <button
+            onClick={[Function]}
+          >
+            Eliminar del carrito
+          </button>
+        </div>
+      </div>
+      <div
+        className="col l12 pull-right"
+      >
+        <h3>
+          A pagar por boletos: $1,29,480
+        </h3>
+      </div>
+    </div>
+  </div>,
+  <hr />,
+]
+`;
+
+exports[`Prueba de funcionalidad de la seccion de tarjetas del carrito Comprobar que al dar click en el botón de "+" incremente el número de boletos 1`] = `
+Array [
+  <div
+    className="card"
+  >
+    <div
+      className="col l2 t3 m3"
+    >
+      <div
+        className="card-image"
+      >
+        <img
+          alt=""
+          src="logo.png"
+          width="100%"
+        />
+      </div>
+    </div>
+    <div
+      className="col l12 t12 m12"
+    >
+      <div
+        className="col l12 pull-center"
+      >
+        <div
+          className="fila"
+        >
+          <div
+            className="col l12 pull-center"
+          >
+            <h3>
+              Fecha de vuelo: 
+              2022-03-19
+            </h3>
+          </div>
+          <div
+            className="col l2 t4 pull-left"
+          >
+            <h5>
+              Salida: Morelia
+              <br />
+              Hora: 10:00
+            </h5>
+          </div>
+          <div
+            className="col l8 t4"
+          >
+            <i
+              className="bx bxs-plane-alt bx-fade-right"
+            />
+          </div>
+          <div
+            className="col l2 t4 pull-right"
+          >
+            <h5>
+              Llegada: Guadalajara
+              <br />
+              Hora: 15:00
+            </h5>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col l12 t12 m12 pull-center"
+      >
+        <h5>
+          Tiempo de viaje: 5 hrs
+        </h5>
+      </div>
+      <div
+        className="col l12 t12 m12 pull-center"
+      >
+        <h5>
+          Precio: $25,896 p/p
+        </h5>
+      </div>
+      <div
+        className="fila col l12"
+      >
+        <div
+          className="fila col l6 t12 m12"
+        >
+          <div
+            className="col l6 t12 m12 pull-center"
+          >
+            <h5>
+               
+              ¿Cuántos boletos necesita?
+               
+            </h5>
+          </div>
+          <div
+            className="col l12"
+          />
+          <div
+            className="number col l2 t5 m5"
+          >
+            <button
+              id="restar"
+              onClick={[Function]}
+            >
+              -
+            </button>
+          </div>
+          <div
+            className="col l2 pull-center"
+          >
+            <label
+              id="countValue"
+            >
+              5
+            </label>
+          </div>
+          <div
+            className="number col l2 t5 m5"
+          >
+            <button
+              id="agregar"
+              onClick={[Function]}
+            >
+              +
+            </button>
+          </div>
+        </div>
+        <div
+          className="col l6 t12 m12"
+        >
+          <button
+            onClick={[Function]}
+          >
+            Eliminar del carrito
+          </button>
+        </div>
+      </div>
+      <div
+        className="col l12 pull-right"
+      >
+        <h3>
+          A pagar por boletos: $1,29,480
+        </h3>
+      </div>
+    </div>
+  </div>,
+  <hr />,
+]
+`;
+
+exports[`Prueba de funcionalidad de la seccion de tarjetas del carrito Comprobar que al dar click en el bóton de "-" decremente el número de boletos 1`] = `
+Array [
+  <div
+    className="card"
+  >
+    <div
+      className="col l2 t3 m3"
+    >
+      <div
+        className="card-image"
+      >
+        <img
+          alt=""
+          src="logo.png"
+          width="100%"
+        />
+      </div>
+    </div>
+    <div
+      className="col l12 t12 m12"
+    >
+      <div
+        className="col l12 pull-center"
+      >
+        <div
+          className="fila"
+        >
+          <div
+            className="col l12 pull-center"
+          >
+            <h3>
+              Fecha de vuelo: 
+              2022-03-19
+            </h3>
+          </div>
+          <div
+            className="col l2 t4 pull-left"
+          >
+            <h5>
+              Salida: Morelia
+              <br />
+              Hora: 10:00
+            </h5>
+          </div>
+          <div
+            className="col l8 t4"
+          >
+            <i
+              className="bx bxs-plane-alt bx-fade-right"
+            />
+          </div>
+          <div
+            className="col l2 t4 pull-right"
+          >
+            <h5>
+              Llegada: Guadalajara
+              <br />
+              Hora: 15:00
+            </h5>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col l12 t12 m12 pull-center"
+      >
+        <h5>
+          Tiempo de viaje: 5 hrs
+        </h5>
+      </div>
+      <div
+        className="col l12 t12 m12 pull-center"
+      >
+        <h5>
+          Precio: $25,896 p/p
+        </h5>
+      </div>
+      <div
+        className="fila col l12"
+      >
+        <div
+          className="fila col l6 t12 m12"
+        >
+          <div
+            className="col l6 t12 m12 pull-center"
+          >
+            <h5>
+               
+              ¿Cuántos boletos necesita?
+               
+            </h5>
+          </div>
+          <div
+            className="col l12"
+          />
+          <div
+            className="number col l2 t5 m5"
+          >
+            <button
+              id="restar"
+              onClick={[Function]}
+            >
+              -
+            </button>
+          </div>
+          <div
+            className="col l2 pull-center"
+          >
+            <label
+              id="countValue"
+            >
+              5
+            </label>
+          </div>
+          <div
+            className="number col l2 t5 m5"
+          >
+            <button
+              id="agregar"
+              onClick={[Function]}
+            >
+              +
+            </button>
+          </div>
+        </div>
+        <div
+          className="col l6 t12 m12"
+        >
+          <button
+            onClick={[Function]}
+          >
+            Eliminar del carrito
+          </button>
+        </div>
+      </div>
+      <div
+        className="col l12 pull-right"
+      >
+        <h3>
+          A pagar por boletos: $1,29,480
+        </h3>
+      </div>
+    </div>
+  </div>,
+  <hr />,
+]
+`;
