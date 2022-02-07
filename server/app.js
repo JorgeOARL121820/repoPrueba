@@ -53,9 +53,9 @@ app.post('/getVuelos', function (req, res) {
 
 });
 
-const hostname = '127.0.0.1';
-const port = 8000;
+const hostname = '0.0.0.0';
+const port = process.env.PORT || 8000;
 
-app.listen(port, hostname, () => {
+app.listen( port, hostname, () => {
   console.log(`El servidor se está ejecutando en http://${hostname}:${port}/`);
 });

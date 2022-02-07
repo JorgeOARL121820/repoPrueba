@@ -212,7 +212,7 @@ const removeItemCar = ( id ) => {
 const getDestinos = async () => {
 
     const destinos = await fetch(
-        "http://localhost:8000/getDestinos"
+        "https://pruebatruehome.herokuapp.com/getDestinos"
     ).then((res) => res.json());
 
     return destinos["cities"];
@@ -221,7 +221,7 @@ const getDestinos = async () => {
 const getVuelos = async ( origen, destino ) => {
     
         const vuelos = await fetch(
-            "http://localhost:8000/getVuelos",
+            "https://pruebatruehome.herokuapp.com/getVuelos",
             {
                 method: "POST",
                 headers: {
