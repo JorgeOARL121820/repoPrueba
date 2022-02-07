@@ -1,0 +1,103 @@
+{
+    "cities": [
+        {
+            "id": 1,
+            "name": "Tampate",
+            "asciiname": "Tampate"
+        },
+        {
+            "id": 2,
+            "name": "Zumpango",
+            "asciiname": "Zumpango"
+        },
+        {
+            "id": 3,
+            "name": "Zumpango del Río",
+            "asciiname": "Zumpango del Rio"
+        },
+        {
+            "id": 4,
+            "name": "Zumpahuacán",
+            "asciiname": "Zumpahuacan"
+        },
+        {
+            "id": 5,
+            "name": "Zozocolco de Hidalgo",
+            "asciiname": "Zozocolco de Hidalgo"
+        },
+        {
+            "id": 6,
+            "name": "Zoquiopan",
+            "asciiname": "Zoquiopan"
+        },
+        {
+            "id": 7,
+            "name": "Zongozotla"
+        },
+        {
+            "id": 8,
+            "name": "Zongolica"
+        },
+        {
+            "id": 9,
+            "name": "Santa María Zolotepec",
+            "asciiname": "Santa Maria Zolotepec"
+        },
+        {
+            "id": 10,
+            "name": "Zitlala"
+        },
+        {
+            "id": 11,
+            "name": "Zinacantán",
+            "asciiname": "Zinacantan"
+        },
+        {
+            "id": 12,
+            "name": "Zimatlán de Álvarez",
+            "asciiname": "Zimatlan de Alvarez"
+        },
+        {
+            "id": 13,
+            "name": "Zimapan",
+            "asciiname": "Zimapan"
+        },
+        {
+            "id": 14,
+            "name": "Zempoala"
+        },
+        {
+            "id": 15,
+            "name": "Zempoala"
+        },
+        {
+            "id": 16,
+            "name": "Zaragoza"
+        },
+        {
+            "id": 17,
+            "name": "Zaragoza",
+            "asciiname": "Zaragoza"
+        },
+        {
+            "id": 18,
+            "name": "Zaragoza de Guadalupe",
+            "asciiname": "Zaragoza de Guadalupe"
+        },
+        {
+            "id": 19,
+            "name": "Zapotlán de Juárez",
+            "asciiname": "Zapotlan de Juarez"
+        },
+        {
+            "id": 20,
+            "name": "Zapotitlán Palmas",
+            "asciiname": "Zapotitlan Palmas"
+        },
+        {
+            "id": 21,
+            "name": "Zacualtipán",
+            "asciiname": "Zacualtipan"
+        }
+    ]
+}

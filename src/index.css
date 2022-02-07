@@ -1,0 +1,116 @@
+@import url("./styles/grid.css");
+
+:root {
+  /* ===== Colors ===== */
+  --body-color: #e4e9f7;
+  --sidebar-color: #fff;
+  --primary-color: #695cfe;
+  --primary-color-light: #f6f5ff;
+  --toggle-color: #ddd;
+  --text-color: #707070;
+
+  /* ====== Transition ====== */
+  --tran-03: all 0.2s ease;
+  --tran-03: all 0.3s ease;
+  --tran-04: all 0.3s ease;
+  --tran-05: all 0.3s ease;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--body-color);
+  transition: var(--tran-05);
+}
+
+::selection {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+body.dark {
+  --body-color: #18191a;
+  --sidebar-color: #242526;
+  --primary-color: #3a3b3c;
+  --primary-color-light: #3a3b3c;
+  --toggle-color: #fff;
+  --text-color: #ccc;
+}
+
+body.dark .card {
+  background-color: #242526;
+}
+
+body.dark label,
+body.dark :is(h1, h2, h3, h4, h5, h6),
+body.dark a {
+  color: #fff;
+}
+
+#principalDiv {
+  margin-left: 133px;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+#principalDiv.close {
+  margin-left: 300px;
+}
+
+@media (max-width: 770px) and (min-width: 426px) {
+  #principalDiv {
+    margin-left: 5%;
+  }
+
+  #principalDiv.close {
+    margin-left: 35%;
+  }
+}
+
+@media (max-width: 425px) {
+  #principalDiv {
+    margin-left: 15px;
+  }
+
+  #principalDiv.close {
+    margin-left: 15px;
+  }
+}
+
+.card {
+  margin: 10px;
+  padding: 1%;
+  border-radius: 15px;
+  background: white;
+}
+
+.card.dark {
+  background-color: #242526 !important;
+}
+
+.card .link_nav {
+  padding: 0.8%;
+  border-radius: 10px;
+}
+
+.card .link_nav:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.card.dark .link_nav {
+  color: #fff;
+}
+
+.pull-right {
+  text-align: end;
+}
+
+.pull-left {
+  text-align: start;
+}
+
+.pull-center {
+  text-align: center;
+}
